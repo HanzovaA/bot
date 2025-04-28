@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/input_voltage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Napětí [V]"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/input_current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Proud [A]"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/input_resistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Odpor [Ω]"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vypočítat" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+    <!-- <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Výsledek se zobrazí zde"
+        android:textSize="18sp"
+        android:padding="16dp" />  -->
+
+</LinearLayout>
