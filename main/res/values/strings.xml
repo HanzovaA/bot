@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Applicationtest</string>
+    <string-array name="operators">
+        <item>&gt;</item>  <!-- > -->
+        <item>&gt;=</item> <!-- >= -->
+        <item>&lt;</item>  <!-- < -->
+        <item>&lt;=</item> <!-- <= -->
+    </string-array>
+
+</resources>
